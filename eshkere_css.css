@@ -1,0 +1,378 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(233, 174, 230, 0.9);
+    font-family: Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-bottom:20px;
+}
+
+body{
+
+    background-color:rgba(255, 255, 255, 0.9);
+    height: auto;
+    width: auto;
+
+}
+
+.icon{
+    width: 230px; 
+    height: auto; 
+    background-color:#ffff;
+    padding: 20px;
+    border-radius: 30px;
+}
+.first-block{
+    background-image: url("https://wallpaper.forfun.com/fetch/2e/2ec64f996d63acb350e31adb909695f0.jpeg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top:5px;
+    margin:-10px;
+}
+
+.play-now{
+    font-family: Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 30px;
+    background-color:rgba(233, 174, 230, 0.9);
+    padding: 70px;
+    width: 400px;
+    float: right;
+    margin: 160px;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.download{
+    width: 90px;
+    height:90px;
+    margin-top:50px;
+    padding:5px;
+}
+
+.description{
+    display: flex;
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 100px; 
+    background-color:rgba(233, 174, 230, 0.9);
+    border: 3px solid white;
+    border-radius: 30px;
+    padding:20px;
+}
+.lang{
+    width: 90px; 
+    height: 90px; 
+}
+
+.second-block{
+    background-image: url(https://i.pinimg.com/736x/b3/3b/5c/b33b5c95fcaf23f73cf7543c2e6e915f.jpg);
+    background-size: cover;
+    margin:-10px;
+}
+
+.events1{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:100px;
+    margin-left:100px;
+    padding-bottom: 500px;
+    background-image: url("https://static.wikia.nocookie.net/ensemble-stars/images/c/ca/%28A_NIGHT_for_Holding_Hands%29_Adonis_Otogari_CG2.png/revision/latest/scale-to-width-down/1000?cb=20240602065857");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    margin-bottom:-295px;
+}
+
+.adonis-ev{
+    width: max-content;
+    height: max-content;
+}
+
+.update{
+    font-family: Verdana, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #ffff;
+    align-self: center;
+    text-shadow:
+    -7px -7px 0 #af0848,  
+    7px -7px 0 #ad1bda,
+    -7px 7px 0 #d15991,
+    7px 7px 0 #9e4aec;
+}
+
+
+.third-block{
+    background-image: url(https://i.pinimg.com/736x/b3/3b/5c/b33b5c95fcaf23f73cf7543c2e6e915f.jpg);
+    background-size: cover;
+    margin-left: -10px;
+    margin-right:-10px;
+}
+    
+
+.rei-ev{
+    width: max-content;
+    height: max-content;
+    margin-top:300px;
+}
+
+.events2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:100px;
+    margin-left:100px;
+    padding-bottom: 300px;
+    background-image: url("https://static.wikia.nocookie.net/ensemble-stars-ru/images/1/19/%28%D0%98%D1%81%D1%82%D0%BE%D0%BA_%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D1%8F%29_%D0%A0%D1%8D%D0%B9_%D0%A1%D0%B0%D0%BA%D1%83%D0%BC%D0%B0_CG2.png/revision/latest/scale-to-width-down/1000?cb=20230423095103&path-prefix=ru");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: auto;
+    height: auto;
+}
+
+h1.unitsh1{
+    font-family: Verdana, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #ffff;
+    margin-left: 750px;
+    text-shadow:
+    -7px -7px 0 #af0848,  
+    7px -7px 0 #ad1bda,
+    -7px 7px 0 #d15991,
+    7px 7px 0 #9e4aec;
+
+}
+
+.trickstar{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgba(143, 54, 13, 0.623);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgba(253, 114, 22, 0.9);
+    border: 5px solid rgba(255, 82, 3, 0.623);
+    border-radius: 30px;
+    padding:30px;
+
+
+}
+
+.valkyrie{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color:rgb(158, 18, 95);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgba(230, 32, 114, 0.9);
+    border: 5px solid rgb(158, 18, 95);
+    border-radius: 30px;
+    padding:30px;
+
+
+}
+
+.fine{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgb(20, 67, 170);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgba(0, 133, 221, 0.9);
+    border: 5px solid rgb(20, 67, 170);
+    border-radius: 30px;
+    padding:30px;
+
+}
+.ryuseitai{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgba(160, 0, 0, 0.9);
+    border: 5px solid rgba(94, 4, 4, 0.527);
+    border-radius: 30px;
+    padding:30px;
+
+}
+
+.alkaloid{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color:rgba(8, 53, 51, 0.527);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgba(33, 198, 204, 0.9);
+    border: 5px solid rgba(21, 141, 135, 0.527);
+    border-radius: 30px;
+    padding:30px;
+
+}
+
+.eden{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgba(2, 32, 4, 0.527);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgba(20, 158, 61, 0.9);
+    border: 5px solid rgba(4, 58, 7, 0.527);
+    border-radius: 30px;
+    padding:30px;
+
+}
+
+.twink{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(255, 93, 206);
+    border: 5px solid rgba(170, 29, 116, 0.678);
+    border-radius: 30px;
+    padding:30px;
+
+}
+
+.crazyb{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(96, 79, 252);
+    border: 5px solid rgba(43, 29, 170, 0.479);
+    border-radius: 30px;
+    padding:30px;
+
+}
+
+.undead{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(104, 13, 112);
+    border: 5px solid rgba(63, 4, 41, 0.678);
+    border-radius: 30px;
+    padding:30px;
+
+}
+.rabbits{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: #168681;
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(214, 252, 234);
+    border: 5px solid rgba(52, 219, 211, 0.678);
+    border-radius: 30px;
+    padding:30px;
+}
+
+.AKATSUKI{display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: #000000;
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(114, 14, 14);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding:30px;
+}
+
+.knights{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgb(10, 69, 97);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(147, 213, 240);
+    border: 5px solid rgb(10, 69, 97);
+    border-radius: 30px;
+    padding:30px;
+}
+
+.switch{
+    display: flex;
+    font-family: Courier , monospace;
+    font-size: 37px;
+    color: rgb(102, 109, 7);
+    text-align: center;
+    margin: 25px; 
+    background-color:rgb(246, 255, 114);
+    border: 5px solid rgb(170, 182, 7);
+    border-radius: 30px;
+    padding:30px;
+}
+
+.news{
+    font-family: Verdana, sans-serif;
+    font-size: 120px;
+    margin-left: 750px;
+    font-weight: bold;
+    color: #ffff;
+    align-self: center;
+    text-shadow:
+    -7px -7px 0 #af0848,  
+    7px -7px 0 #ad1bda,
+    -7px 7px 0 #d15991,
+    7px 7px 0 #9e4aec;
+}
+
+.fifth-block{
+    background-color: #ffffff;
+}
+.video{
+    margin-left:50px;
+    margin-right:50px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(233, 174, 230, 0.9);
+    font-family: Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    border: 3px solid white;
+    bottom: 0;}
